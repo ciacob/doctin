@@ -1,0 +1,31 @@
+{
+  "name": "doctin",
+  "version": "1.0.0",
+  "description": "Tool that reduces generated ActionScript documentation (ASDOC) to a shallow abstract syntax tree (AST), in JSON format.",
+  "keywords": [
+    "ActionScript",
+    "documentation",
+    "asdoc",
+    "ast",
+    "json"
+  ],
+  "homepage": "https://github.com/ciacob/doctin#readme",
+  "bugs": {
+    "url": "https://github.com/ciacob/doctin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciacob/doctin.git"
+  },
+  "license": "MIT",
+  "author": "Claudius Iacob <claudius.iacob@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "fs-extra": "^11.3.0"
+  }
+}
